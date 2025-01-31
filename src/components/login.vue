@@ -22,7 +22,7 @@ const errorMessage = ref("");
 const router = useRouter();
 
 const handleLogin = () => {
-  const adminPassword = "bokaj#1599"; // Set your password here
+  const adminPassword = ""; // Set your password here
   if (password.value === adminPassword) {
     localStorage.setItem("authToken", "secure"); // Save auth token
     router.push("/host"); // Redirect to the dashboard
