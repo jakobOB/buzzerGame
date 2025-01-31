@@ -1,5 +1,30 @@
-# Vue 3 + Vite
+# 🎮 Buzzer Game  
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+It's a simple multiplayer buzzer game using **Vue 3** and **Socket.io**.  
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+## 🚀 Getting Started  
+
+### **1️⃣ Run the WebSocket Server**  
+Before starting the game, **run the socket server**:  
+```sh
+node socket.js
+```
+
+### **2️⃣ Build & Run the App**  
+First, build the app:  
+```sh
+npm run build
+```  
+Then, serve it:  
+```sh
+npm run serve
+```
+
+## 📌 Features  
+✅ Teams can join and buzz. 
+✅ Teams can only buzz once per round.
+✅ Host sees the buzz order, can assign points, and reset buzzers and teams. 
+✅ A Dashboard shows the current buzzword and each team's total points.
+
+## 📜 License  
+MIT License  
