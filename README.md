@@ -4,8 +4,12 @@ It's a simple multiplayer buzzer game using **Vue 3** and **Socket.io**.
 
 ## 🚀 Getting Started  
 
+### Pre-Settings
+Before starting the game, you must set a login password so only the host can access the **/host** and **/dashboard** pages. This can be put in the Login.vue component.
+Additionally, you need to change the **URL** of the socket clients in each component. For this, you can set the IP address of your Computer in your local wifi.
+
 ### **1️⃣ Run the WebSocket Server**  
-Before starting the game, **run the socket server**:  
+**run the socket server**:  
 ```sh
 node socket.js
 ```
